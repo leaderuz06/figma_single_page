@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1350px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.logo img{
+    width: 170px;
+    height: 21px;
+
+}
+
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 33px;
+}
+
+.nav_item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.selection{
+    border: none;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+}
+
+.icon i{
+    font-size: 24px;
+    color: #000000;
+}
+
+
+
+
+/* header ending  */
+
+/* hero section starting */
+
+.hero_section{
+    background-color: #5959e125;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.hero_title{
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.hero_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #000000;
+    margin: 19px 0 30px 0;
+}
+
+.hero_btn{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    margin: 30px 0;
+}
+
+/* ending of the hero section */
+
+/* catigories section starting */
+
+.catigories_title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52.5px;
+    color: #000000;
+    margin: 75px 0 9px 0;
+}
+
+.catigories_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.categories_cards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 56px 0 0 0;
+}
+
+.categories_card1{
+    width: 639px;
+    background-color: #fff;
+}
+
+.categories_card_laptop{
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 72px;
+}
+
+.categories_card_laptop{
+    padding: 0 42px;
+}
+
+.categories_card_laptop_info{
+    text-align: end;
+}
+
+.categories_card_laptop_info span, .categories_card_watch_info span, .categories_card2_info span, .categories_card3_info span{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.2px;
+    color: #000000;
+}
+
+.categories_card_laptop_info h2, .categories_card_watch_info h2, .categories_card2_info h2, .categories_card3_info h2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000000;
+}
+
+.categories_card_watch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.1);
+    padding: 0 42px;
+}
+
+.categories_card_watch_info{
+    text-align: end;
+}
+
+.categories_card2, .categories_card3 {
+    width: 312px;
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.1);
+    padding: 144px 0;
+}
+
+.categories_card2 img{
+    position: relative;
+    right: -20px !important;
+}
+
+.categories_card2_info span, .categories_card3_info span{
+    text-align: center;
+}
+
+.categories_card2_info h2, .categories_card3_info h2{
+    text-align: center;
+}
+
+.categories_card2_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 0 0 0;
+}
+
+.categories_card3_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 42px;
+}
+
+.categories_card2_info h2{
+    padding-bottom: 60px;
+}
+
+/* categories section ending  */
+
+/* most selled section starting */
+
+.most_selled{
+    margin: 60px;
+}
+
+.most_selled_section_info{
+    text-align: center;
+}
+
+.most_selled_section_info h1{
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52.5px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.most_selled_section_info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #000000;
+}
+
+.most_selled_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 28px;
+    margin: 60px 0;
+}
+
+.most_selled_card{
+    width: 302px;
+    padding: 20px;
+}
+
+.most_selled_card img{
+    width: 100%;
+    margin: 5px 0;
+}
+
+.most_selled_card_info h2{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27.5px;
+    color: #000000;
+    margin: 9px 0;
+}
+
+.most_selled_card_info span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.most_selled_card_info p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21.6px;
+    color: #000000;
+}
+
+/* best around section starting */
+
+.best_around_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin: 60px 0;
+}
+
+.best_around_card{
+    width: 413px;
+    border-radius: 16px;
+    background-color: #F8F9FA;
+}
+
+.best_around_card_info{
+    text-align: center;
+}
+
+.best_around_card_info span{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.8px;
+    color: #000000;
+    margin-top: 48px;
+    display: inline-block;
+}
+
+.best_around_card_info h2{
+    font-weight: 400;
+    font-size: 28;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.best_around_card img{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* ideas section starting  */
+
+.ideas_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 60px 0;
+}
+
+.ideas_info p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin: 10px 0; 
+    margin-bottom: 25px;   
+}
+
+.ideas_btn{
+    width: 110px;
+    height: 28px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;   
+    margin: 60px auto;
+    background: #fff;
+}
+
+/* ideas section ending  */
+
+/* looking section starting  */
+
+.lookingHead h1{
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52.5px;
+    color: #000000;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.looking_input{
+    width: 650px;
+    height: 60;
+    border-radius: 30px;
+    background-color: #F8F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: auto;
+    padding: 15px 22px;
+    border: 1px solid #C5C5C5;
+}
+
+.looking_input input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #F8F9FA;
+}
+
+.looking_input i{
+    font-size: 20px;
+    color: #0000006a;
+}
+
+.looking_content{
+    width: 935px;
+    background-color: #DCE5E2;
+    margin: 60px auto;
+    padding: 60px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.looking_content h1{
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52.5px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.looking_content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.looking_content img{
+    width: 233px;
+    height: 200px;
+}
+
+
+.looking_content_input{
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+    padding: 22px 0 22px 22px;
+    border: 1px solid #C5C5C5;
+}
+
+.looking_content_input input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.looking_content_input button{
+    width: 150px;
+    height: 50px;
+    background: #000000;
+    border-radius:0 30px 30px 0;
+    border: none;
+    color: #fff;
+}
+
+/* looking section ending  */
+
+/* footer section starting */
+
+footer{
+    background: #F8F9FA;
+}
+
+.footer_categories{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 60px;
+}
+
+.footer_logo img{
+    margin: 20px 0;
+}
+
+.footer_logo p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #000000;
+}
+
+.footer_category h4{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27.5px;
+    letter-spacing: 0;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.footer_category ul li{
+    margin-bottom: 13px;
+}
+
+.footer_category ul a li{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21.6px;
+    color: #000000;
+}
